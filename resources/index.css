@@ -1,0 +1,41 @@
+/* Universal Styles */
+html {
+    background-color: white;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgb(171, 211, 245);
+  }
+  
+  nav {
+    background-color: black;
+    
+  }
+  
+  main {
+  background-color: brown;
+  }
+  
+  
+  .skills {
+    background-color: antiquewhite;
+  }
+  
+  .about-me {
+    background-color: rgb(148, 132, 167);
+  }
+  
+  .projects {
+    background-color: rgb(146, 232, 169);
+  }
+  
+  p {
+      font-size: 18px;
+    }
+  
+  img {
+      width: 375px;
+      height: 500px;
+      opacity: 0.8;
+  }
