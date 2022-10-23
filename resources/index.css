@@ -9,12 +9,16 @@ html {
   }
   
   nav {
-    background-color: black;
+    background-color: rgb(212, 206, 206);
     
   }
   
   main {
-  background-color: brown;
+  background-color: rgb(242, 171, 171);
+  background-image: url('/Users/edgardobaltazar/Desktop/Web-Projects/personalportfolio/resources/pictures/losangeles.jpg');
+  background-size: cover;
+  background-position-y: center;
+  height: 500px;
   }
   
   
