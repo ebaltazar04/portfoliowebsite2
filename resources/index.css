@@ -1,6 +1,6 @@
 /* Universal Styles */
 html {
-    background-color: white;
+    background-color: rgb(238, 238, 228);
     font-size: 16px;
   }
   
@@ -58,6 +58,7 @@ nav {
     background-color: rgb(168, 168, 162);
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .skills {
@@ -67,7 +68,7 @@ nav {
 }
 
 .skills h3 {
-    color: white;
+    color: rgb(4, 4, 26);
     font-weight: bolder;
     font-size: 1.5rem;
 }
@@ -85,7 +86,7 @@ nav {
 
   
 .about-me {
-    background-color: rgb(148, 132, 167);
+    background-color: rgb(238, 238, 228);
 }
 
 .desktop {
@@ -103,8 +104,14 @@ nav {
 
 .about {
     display: block;
-    color: white;
+    text-decoration: underline;
     font-size: 2rem;
+}
+
+.about-me p {
+    text-align: unset;
+    line-height: 1.7rem;
+    color:rgb(4, 4, 26);
 }
 
   
