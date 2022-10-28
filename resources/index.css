@@ -3,6 +3,14 @@ html {
     background-color: rgb(238, 238, 228);
     font-size: 16px;
   }
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 1rem 1rem;
+}
   
   /* Header */
 header {
@@ -10,7 +18,7 @@ header {
 }
   
 nav {
-    background-color: rgb(168, 168, 162);
+    background-color: rgb(103, 101, 101);
     display: flex;
     justify-content: right;
     padding-bottom: 0px;
@@ -33,7 +41,7 @@ nav {
   background-position-y: 35%;
   height: 18rem;
   /* text-align: center; */
-  opacity: 0.85;
+  opacity: 0.9;
   padding-top: 1px;
 }
 
@@ -45,8 +53,6 @@ nav {
 .banner h1 {
     padding-top: 4rem;
     color: white;
-    opacity: 1.0;
-    z-index: 2;
 }
 
 .banner p {
@@ -55,7 +61,7 @@ nav {
   
   
 .skillscontainer {
-    background-color: rgb(168, 168, 162);
+    background-color: rgb(103, 101, 101);
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
@@ -71,6 +77,9 @@ nav {
     color: white;
     font-weight: bolder;
     font-size: 1.5rem;
+    border: 3px solid white;
+    padding: 2px 3px;
+    border-radius: 5px;
 }
 
 .skill li {
@@ -116,15 +125,51 @@ nav {
 
   
 .projects {
-    background-color: rgb(146, 232, 169);
+    /* background-color: rgb(146, 232, 169); */
+    margin: auto 0;
+}
+
+.container-2 {
+    /* background-color: white; */
+}
+
+.project {
+    background-color: rgb(103, 101, 101);
+    width: 35rem;
+    height: auto;
+    margin-right: 1rem;
+    padding: 1rem auto;
+    border: 4px black solid;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project h4 {
+    color: white;
+}
+
+.project img {
+    margin-bottom: 2rem;
+}
+
+.project figcaption {
+    padding: 2rem 1rem;
+    color: white;
 }
   
-p {
+/* p {
       font-size: 18px;
-}
+} */
   
 img {
-      width: 375px;
-      height: 500px;
+      height: 20rem;
+      width: 19rem;
       opacity: 0.8;
+      border: .5rem white groove;
 }
