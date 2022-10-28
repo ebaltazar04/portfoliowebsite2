@@ -115,6 +115,7 @@ nav {
     display: block;
     text-decoration: underline;
     font-size: 2rem;
+    font-style: oblique;
 }
 
 .about-me p {
@@ -127,10 +128,21 @@ nav {
 .projects {
     /* background-color: rgb(146, 232, 169); */
     margin: auto 0;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.projects h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-style: oblique;
 }
 
 .container-2 {
     /* background-color: white; */
+    display: flex;
+    justify-content: center;
 }
 
 .project {
