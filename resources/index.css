@@ -40,9 +40,17 @@ nav {
   background-size: cover;
   background-position-y: 35%;
   height: 18rem;
+  width: auto;
   /* text-align: center; */
   opacity: 0.9;
   padding-top: 1px;
+}
+
+.container-1 h1 {
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -50,13 +58,15 @@ nav {
     text-align: center;
 }
 
-.banner h1 {
+/* .banner h1 {
     padding-top: 4rem;
     color: white;
-}
+} */
 
 .banner p {
     color: white;
+    padding-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   
   
@@ -80,6 +90,7 @@ nav {
     border: 3px solid white;
     padding: 2px 3px;
     border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .skill li {
@@ -96,6 +107,12 @@ nav {
   
 .about-me {
     background-color: rgb(238, 238, 228);
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+}
+
+.about-me h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .desktop {
@@ -137,6 +154,7 @@ nav {
     text-align: center;
     font-size: 3rem;
     font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container-2 {
@@ -147,10 +165,12 @@ nav {
 
 .project {
     background-color: rgb(103, 101, 101);
-    width: 35rem;
+    width: 35%;
+    min-width: 350px;
     height: auto;
-    margin-right: 1rem;
-    padding: 1rem auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 25% auto;
     border: 4px black solid;
     margin-bottom: 20px;
     text-align: center;
@@ -168,6 +188,8 @@ nav {
 
 .project img {
     margin-bottom: 2rem;
+    height: 15rem;
+    width: 55%;
 }
 
 .project figcaption {
@@ -180,8 +202,56 @@ nav {
 } */
   
 img {
-      height: 20rem;
-      width: 19rem;
-      opacity: 0.8;
+      height: 350px;
+      width: 60%;
+      opacity: 0.9;
       border: .5rem white groove;
+}
+
+@media only screen and (max-width: 1253px) {
+    
+    .skills h3 {
+        font-size: 1rem;
+        border: 3px solid white;
+        padding: 1px 2px;
+    }
+    
+    .skill li {
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        margin-right: 1em;
+    }
+    
+}
+
+@media only screen and (max-width: 868px) {
+    
+    .skills h3 {
+        font-size: 0.8rem;
+        border: 3px solid white;
+        padding: 1px 2px;
+    }
+    
+    .skill li {
+        font-size: 0.7rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 643px) {
+    
+    .skills h3 {
+        font-size: 0.5rem;
+        border: 2px solid white;
+        padding: 1px 2px;
+    }
+    
+    .skill li {
+        font-size: 0.4rem;
+        margin-left: .2rem;
+        margin-right: .2rem;
+    }
+    
 }
