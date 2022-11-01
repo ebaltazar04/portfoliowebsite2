@@ -50,7 +50,7 @@ nav {
     color: white;
     text-align: center;
     padding-top: 4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: oblique;
 }
 
 
@@ -113,6 +113,9 @@ nav {
 
 .about-me h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-style: oblique;
 }
 
 .desktop {
@@ -126,13 +129,11 @@ nav {
 
 #flex-1 {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .about {
     display: block;
-    text-decoration: underline;
-    font-size: 2rem;
-    font-style: oblique;
 }
 
 .about-me p {
@@ -143,18 +144,21 @@ nav {
 
   
 .projects {
-    /* background-color: rgb(146, 232, 169); */
     margin: auto 0;
     text-align: center;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .projects h3 {
     text-align: center;
+    text-decoration: underline;
     font-size: 3rem;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#flex-2 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container-2 {
@@ -177,19 +181,17 @@ nav {
     border-radius: 5px;
 }
 
-#flex-2 {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .project h4 {
     color: white;
+    text-decoration: underline;
 }
 
 .project img {
     margin-bottom: 2rem;
     height: 15rem;
     width: 55%;
+    min-width: 225px;
 }
 
 .project figcaption {
@@ -221,37 +223,118 @@ img {
         margin-left: 1rem;
         margin-right: 1em;
     }
-    
 }
+
+@media only screen and (max-width: 1137px) {
+
+    .about-me h3 {
+        font-size: 1.8rem;
+    }
+    
+    .desktop {
+       height: 80%;
+       width: 20rem;
+       padding: 1rem 1rem 1rem;
+    }
+
+    .about-me p {
+        font-size: .9rem;
+        text-align: justify;
+        line-height: 1.2rem;
+        /* color:rgb(4, 4, 26); */
+    }
+ }
+
+ @media only screen and (max-width: 900px) {
+    
+    #flex-1 {
+     display: flex;
+     flex-wrap: wrap;
+     }
+
+     .desktop {
+        height: auto;
+        width: 50%;
+        margin: auto;
+        padding: 1rem 1rem 1rem;
+     }
+
+     .project {
+        width: 25%;
+        min-width: 250px;
+    }
+
+
+    .project img {
+        margin-bottom: 1rem;
+    }
+    
+    .project figcaption {
+        padding: 1rem 1rem;
+    }
+ }
 
 @media only screen and (max-width: 868px) {
     
     .skills h3 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         border: 3px solid white;
         padding: 1px 2px;
     }
     
     .skill li {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin-left: .5rem;
         margin-right: .5rem;
+        border: 2px solid white;
     }
     
 }
 
-@media only screen and (max-width: 643px) {
+@media only screen and (max-width: 736px) {
     
     .skills h3 {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         border: 2px solid white;
         padding: 1px 2px;
     }
     
     .skill li {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
         margin-left: .2rem;
         margin-right: .2rem;
     }
-    
 }
+
+@media only screen and (max-width: 643px) {
+    
+    .skills h3 {
+        font-size: 0.7rem;
+        border: 2px solid white;
+        padding: 1px 2px;
+    }
+    
+    .skill li {
+        font-size: 0.7rem;
+        margin-left: .2rem;
+        margin-right: .2rem;
+    }
+}
+
+@media only screen and (max-width: 593px) {
+    
+    .skills h3 {
+        font-size: 0.7rem;
+        border: 2px solid white;
+        padding: 1px 1px;
+    }
+    
+    .skill li {
+        font-size: 0.6rem;
+        margin-left: .1rem;
+        margin-right: .1rem;
+        border: 1px solid white;
+    }
+}
+
+
