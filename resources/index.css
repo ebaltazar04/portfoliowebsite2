@@ -31,6 +31,12 @@ nav {
 
 .navbar li {
     margin-right: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color: white;
 }
 
 
@@ -119,7 +125,7 @@ nav {
 }
 
 .desktop {
-   height: 100%;
+   height: 25rem;
    width: 25rem;
    margin-left: 2rem;
    margin-right: 2rem;
@@ -210,6 +216,25 @@ img {
       border: .5rem white groove;
 }
 
+
+@media only screen and (max-width: 1451px) {
+
+    .desktop {
+        height: 29rem;
+        width: 27rem;
+    }
+}
+
+@media only screen and (max-width: 1275x) {
+
+    .desktop {
+        height: 35rem;
+        width: 27rem;
+    }
+}
+
+
+
 @media only screen and (max-width: 1253px) {
     
     .skills h3 {
@@ -222,6 +247,11 @@ img {
         font-size: 0.9rem;
         margin-left: 1rem;
         margin-right: 1em;
+    }
+
+    .desktop {
+        height: 37rem;
+        width: 29rem;
     }
 }
 
