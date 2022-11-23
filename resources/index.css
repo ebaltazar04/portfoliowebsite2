@@ -198,13 +198,13 @@ a {
 
 .project figcaption {
     padding: 2rem 1rem;
-    color: white;
+    color: white
 }
   
   
 img {
     opacity: 0.8;
-    border: .5rem white groove;
+    border: .5rem white double;
 }
 
 
