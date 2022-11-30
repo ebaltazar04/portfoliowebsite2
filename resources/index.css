@@ -117,11 +117,24 @@ a {
     font-style: oblique;
 }
 
+.about-me button {
+    text-align: center;
+}
+
+.about-me div img {
+    height: 25rem;
+    width: 20rem;
+}
+
+.button {
+    text-align: center;
+}
+
 .desktop {
-   height: 25rem;
-   width: 25rem;
+   margin-top: 3rem;
    margin-left: 2rem;
    margin-right: 2rem;
+   margin-bottom: 2rem;
    padding: 1rem 2rem 1rem;
    border: 2px solid black;
 }
@@ -218,7 +231,7 @@ img {
 
 @media only screen and (max-width: 1275x) {
 
-    .desktop {
+    .about-me div img {
         height: 35rem;
         width: 27rem;
     }
@@ -239,9 +252,10 @@ img {
         margin-right: 1em;
     }
 
-    .desktop {
-        height: 37rem;
+    .about-me div img {
+        height: 35rem;
         width: 29rem;
+        
     }
 }
 
@@ -251,7 +265,7 @@ img {
         font-size: 1.8rem;
     }
     
-    .desktop {
+    .about-me div img {
        height: 80%;
        width: 20rem;
        padding: 1rem 1rem 1rem;
@@ -272,10 +286,10 @@ img {
      flex-wrap: wrap;
      }
 
-     .desktop {
+     .about-me div img {
         height: auto;
         width: 50%;
-        margin: auto;
+        margin: 0 auto;
         padding: 1rem 1rem 1rem;
      }
 

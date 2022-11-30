@@ -243,3 +243,8 @@ function resetProject5() {
 
 project5.addEventListener('mouseover', changeProject5);
 project5.addEventListener('mouseleave', resetProject5);
+
+
+// Creating click event to show image of Petunia //
+
+let revealPetunia = document.getElementById('flex-1');
