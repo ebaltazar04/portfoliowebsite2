@@ -11,6 +11,7 @@ function changeBanner() {
     bannerName.style.color = 'black';
     bannerIntro.style.color = 'black';
     bannerIntro.style.fontSize = '1.2rem';
+    banner.style.border = '5px solid white';
 }
 
 function unchangeBanner() {
@@ -19,6 +20,7 @@ function unchangeBanner() {
     bannerName.style.color = 'white';
     bannerIntro.style.color = 'white';
     bannerIntro.style.fontSize = '1rem';
+    banner.style.border = 'none';
 }
 
 // banner.onclick = changeBanner;
@@ -247,4 +249,28 @@ project5.addEventListener('mouseleave', resetProject5);
 
 // Creating click event to show image of Petunia //
 
-let revealPetunia = document.getElementById('flex-1');
+let currentImage = document.querySelector('.desktop');
+
+let petunia = document.querySelector('.hidden-image');
+
+let revealButton = document.querySelector('.reveal-btn');
+
+function revealPetunia() {
+    currentImage.style.display = 'none';
+    petunia.style.display = 'block';
+    // petunia.style.height = '90%';
+    petunia.style.margin = '3rem 2rem 2rem';
+    petunia.style.padding = '1rem 2rem 1rem';
+    petunia.style.border = '2px solid black';
+    petunia.style.opacity = '1.0';
+    revealButton.innerHTML = 'Click on image to remove Petunia';
+}
+
+function hidePetunia() {
+    currentImage.style.display = 'block';
+    petunia.style.display = 'none';
+    revealButton.innerHTML = 'Click for best dog in the world again';
+}
+
+revealButton.addEventListener('click', revealPetunia);
+petunia.addEventListener('mousedown', hidePetunia);

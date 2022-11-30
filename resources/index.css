@@ -126,6 +126,10 @@ a {
     width: 20rem;
 }
 
+.hidden-image {
+    display: none;
+}
+
 .button {
     text-align: center;
 }
